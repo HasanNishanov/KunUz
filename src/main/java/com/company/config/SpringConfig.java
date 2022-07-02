@@ -23,7 +23,7 @@ public class SpringConfig extends WebSecurityConfigurerAdapter {
         // Authorization
         http.authorizeRequests()
 
-                .antMatchers("/attach","/attach/*").hasAnyRole("PROFILE","ADMIN")
+
                 .antMatchers("/article","/article/user/*").hasAnyRole("PROFILE","ADMIN")
                 .antMatchers("/auth","/auth/*").hasAnyRole("PROFILE","ADMIN")
                 .antMatchers("/article_like","/article_like/*").hasAnyRole("PROFILE","ADMIN")
