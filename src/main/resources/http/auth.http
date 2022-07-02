@@ -1,0 +1,59 @@
+### ADMIN
+POST http://localhost:8081/auth/login
+Content-Type: application/json
+
+{
+
+ "email" : "kkk.com007",
+  "password" : "998945779598"
+
+}
+
+### MODERATOR
+POST http://localhost:8081/auth/login
+Content-Type: application/json
+
+{
+
+  "email" : "model.com007",
+  "password" : "12424534"
+
+}
+
+### MODERATOR
+POST http://localhost:8081/auth/registration
+Content-Type: application/json
+
+{
+  "name": "Otash",
+  "surname" :"karshiboyev",
+  "email" : "otabekhoshimxon@gmail.com",
+  "password" : "123",
+  "phone": "9989460997841"
+}
+
+
+### ADMIN
+POST http://localhost:8081/auth/registration
+Content-Type: application/json
+
+{
+  "name": "Moderator",
+  "surname" :"Modem",
+  "email" : "model.com007",
+  "password" : "12424534"
+}
+
+
+### ADMIN
+POST http://localhost:8081/auth/verification
+Content-Type: application/json
+
+{
+  "phone": "998946099784",
+  "code" :"35333"
+}
+
+###
+GET http://localhost:8081/auth/resend/998946099784
+Content-Type: application/json

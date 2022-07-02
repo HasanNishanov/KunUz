@@ -1,0 +1,25 @@
+###
+POST http://localhost:8082/profile/create
+Content-Type: application/json
+
+{
+  "name": "jalol",
+  "surName" :"karshiboyev",
+  "email" : "kkk.com",
+  "phone" : "998945779595"
+}
+
+
+
+###
+PUT http://localhost:8082/profile/update
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ4MzkzNzcsImV4cCI6MTY1NDg0Mjk3NywiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxMywicm9sZSI6IlVTRVIifQ.C9maAQGxcIImCYdI9ctQwll9kEv7u2Bx33ZoiG833I8
+
+{
+  "name": "jalol007",
+  "surName" :"karshiboyev007",
+  "email" : "kkk.com007",
+  "phone" : "998945779598",
+  "photoId": "92668321-be38-4233-9edd-e6bab785d5eb"
+}

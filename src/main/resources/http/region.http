@@ -1,0 +1,42 @@
+###
+POST http://localhost:8081/region/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTUzMDI1OTksImV4cCI6MTY1NTMwNjE5OSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxLCJyb2xlIjoiQURNSU4ifQ.hkcRTihqtZBE_ficaCfYU8yg49FsFSu0AwzY9fSTuJs
+
+{
+  "key" : "Xorazm",
+  "nameUz" : "Xorazm",
+  "nameRu" : "бухорo",
+  "nameEn":"buxara"
+}
+
+
+
+###
+GET http://localhost:8081/region
+Content-Type: application/json
+
+
+###
+GET http://localhost:8082/region/listAdmin
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ4NDA1NzYsImV4cCI6MTY1NDg0NDE3NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo0LCJyb2xlIjoiQURNSU4ifQ._GdF9Y_4hzJvkil496bJ2_1OWF9ssAuDh5P2_KxnYaw
+
+###
+PUT http://localhost:8082/region/update/9
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ4NDA1NzYsImV4cCI6MTY1NDg0NDE3NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo0LCJyb2xlIjoiQURNSU4ifQ._GdF9Y_4hzJvkil496bJ2_1OWF9ssAuDh5P2_KxnYaw
+
+{
+  "key" : "buxoro1",
+  "nameUz" : "buxoro",
+  "nameRu" : "бухорo",
+  "nameEn":"buxara"
+}
+
+###
+PUT http://localhost:8082/region/delete/2
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ4NDA1NzYsImV4cCI6MTY1NDg0NDE3NiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo0LCJyb2xlIjoiQURNSU4ifQ._GdF9Y_4hzJvkil496bJ2_1OWF9ssAuDh5P2_KxnYaw
+
+

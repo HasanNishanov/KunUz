@@ -1,0 +1,8 @@
+POST  https://api.smsfly.uz/
+Content-Type: application/json
+
+{
+    "key":"........",
+    "phone":"998935997864",
+    "message":"Na gaplar"
+}

@@ -1,0 +1,9 @@
+###
+POST http://localhost:8081/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="111221.PNG"
+
+< C:\Users\BigMan\Desktop\111221.PNG
+

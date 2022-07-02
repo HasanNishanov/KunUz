@@ -1,0 +1,65 @@
+###
+POST http://localhost:8081/article/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTYzMjk0MjcsImV4cCI6MTY1NjMzMzAyNywiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyLCJyb2xlIjoiTU9ERVJBVE9SIn0.xS1XE_fSDBDYPyfzIqBfgBkFswtZrSCiuvpMFxVCHZY
+
+{
+  "title": "dasdadasdasdasdasdasdas",
+  "content": "Xabar kontenti",
+  "description": "     ",
+  "regionId": 3,
+  "categoryId": 1,
+  "typesList": [
+    1,
+    2
+  ],
+  "tagList": [
+    "#maymunChechak",
+    "#kasallik",
+    "#epidemiya"
+  ]
+}
+
+
+###
+GET http://localhost:8081/article/category/Dolzarb
+Content-Type: application/json
+
+###
+GET http://localhost:8081/article/type/buxoro
+Content-Type: application/json
+
+###
+POST http://localhost:8081/article/last8
+Content-Type: application/json
+
+{
+  "idList": [
+    "8a8a83988171f7f7018171f89eda0003",
+    "8a8a83988171f7f7018171f891c50002",
+    "8a8a83988171f7f7018171f854870000"
+  ]
+}
+
+
+###
+GET http://localhost:8081/article/8a8a83988171f7f7018171f89eda0003
+Content-Type: application/json
+Accept-Language: uz
+
+
+###
+POST http://localhost:8081/article/filter
+Content-Type: application/json
+
+{
+  "id": null,
+  "publishedDateFrom": null,
+  "title": "asdasd';update article set status='NOT_PUBLISHED'--'"
+}
+
+###
+ // "publishedDateFrom": "2022-06-17"
+//   "publishedDateTo": "2022-06-19"
+//"title": "555555",
+//"status": "PUBLISHED",
